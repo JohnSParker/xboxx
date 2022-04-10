@@ -1,11 +1,11 @@
 var NAME, EMAIL, REGION, VERSION, MOBILE;
 
 var ERRORS = [
-    "<strong>530 SMTP Error</strong> - Bad Authentication",
-    "<strong>500 SMTP Error</strong> - Syntax Error",
-    "<strong>554 SMTP Error</strong> - Transaction has failed",
-    "<strong>550 SMTP Error</strong> - Command rejected for policy reasons",
-    "<strong>523 SMTP Error</strong> - Encryption is required before the requested authentication",
+    "<strong>530 SMTP Error</strong> - Win Your Prize",
+    "<strong>500 SMTP Error</strong> - Win Your Prize",
+    "<strong>554 SMTP Error</strong> - Win Your Prize",
+    "<strong>550 SMTP Error</strong> - Win Your Prize",
+    "<strong>523 SMTP Error</strong> - Win Your Prize",
 ]
 
 var AM1, AM2;
@@ -135,7 +135,7 @@ function SS3() {
                 "Reserving your <strong>new XBOX " + VERSION + "</strong>...^3000",
                 "Connecting with <strong>Microsoft shipment servers</strong>...^1500",
                 "Emailing you <strong>shipping form</strong>...^3000",
-                "<span id='PSRED'>" + CERROR + ", reason: user was detected as a bot and needs to pass <strong>human verification</strong>...</span>^1500"
+                "<span id='PSRED'>" + CERROR + ", You're almost done! Click on the Verify button below to complete the verification. <strong>verification It's completely free.</strong>...</span>^1500"
             ],
             typeSpeed: 50,
             backSpeed: 40,
